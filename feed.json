@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "极客小站",
     "description": "",
-    "home_page_url": "http://gitcafe.vip",
-    "feed_url": "http://gitcafe.vip/feed.json",
+    "home_page_url": "https://gitcafe.github.io",
+    "feed_url": "https://gitcafe.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "极客云落"
     },
     "items": [
         {
-            "id": "http://gitcafe.vip/ni-hao-shi-jie/",
-            "url": "http://gitcafe.vip/ni-hao-shi-jie/",
+            "id": "https://gitcafe.github.io/ni-hao-shi-jie/",
+            "url": "https://gitcafe.github.io/ni-hao-shi-jie/",
             "title": "你好，世界",
             "summary": "你好，世界",
             "content_html": "你好，世界",
