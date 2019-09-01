@@ -10,13 +10,20 @@ if (workbox) {
 }
 
 workbox.routing.registerRoute(
-    new RegExp('https://gitcafe\.huashengls\.com/'),
-    workbox.strategies.cacheFirst({
-      cacheName: 'Gitcafe-Static',
-      plugins: [
-        new workbox.expiration.Plugin({
-          maxAgeSeconds: 30 * 24 * 60 * 60,
-        })
-      ],
+    /.*\.css/,
+    workbox.strategies.staleWhileRevalidate({
+        cacheName: 'css-cache',
     })
+);
+workbox.routing.registerRoute(
+    /.*\.js/,
+    workbox.strategies.staleWhileRevalidate({
+        cacheName: 'js-cache',
+    })
+);
+workbox.routing.registerRoute(
+	/.*\.(jpg|png)/,
+	workbox.strategies.staleWhileRevalidate({
+		cacheName: 'img-cache',
+	})
 );
