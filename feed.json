@@ -11,8 +11,8 @@
     },
     "items": [
         {
-            "id": "https://yunluo.github.io/kan-kan-zhe-ge-biao-ti/",
-            "url": "https://yunluo.github.io/kan-kan-zhe-ge-biao-ti/",
+            "id": "https://yunluo.github.io/kan-kan-zhe-ge-biao-ti.html",
+            "url": "https://yunluo.github.io/kan-kan-zhe-ge-biao-ti.html",
             "title": "看看这个标题",
             "summary": "看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 ",
             "content_html": "<p>看看这个标题看看这个标题</p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p> </p>",
@@ -25,8 +25,8 @@
             "date_modified": "2019-09-01T10:26:52+08:00"
         },
         {
-            "id": "https://yunluo.github.io/ni-hao-shi-jie/",
-            "url": "https://yunluo.github.io/ni-hao-shi-jie/",
+            "id": "https://yunluo.github.io/ni-hao-shi-jie.html",
+            "url": "https://yunluo.github.io/ni-hao-shi-jie.html",
             "title": "你好，世界",
             "summary": "你好，世界 ",
             "content_html": "<p>你好，世界</p>\n<p><img class=\"post__image--full align-center\" src=\"https://yunluo.github.io/media/posts/1/346332-106.jpg\" alt=\"\" width=\"1920\" height=\"1080\"></p>",
