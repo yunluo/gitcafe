@@ -3,12 +3,39 @@
     <title>极客小站</title>
     <link href="https://yunluo.github.io/feed.xml" rel="self" />
     <link href="https://yunluo.github.io" />
-    <updated>2019-09-01T13:02:58+08:00</updated>
+    <updated>2019-09-01T13:08:01+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
     <id>https://yunluo.github.io</id>
 
+    <entry>
+        <title>一款全新的静态网站CMS系统</title>
+        <author>
+            <name>极客云落</name>
+        </author>
+        <link href="https://yunluo.github.io/yi-kuan-quan-xin-de-jing-tai-wang-zhan-cms-xi-tong.html"/>
+        <id>https://yunluo.github.io/yi-kuan-quan-xin-de-jing-tai-wang-zhan-cms-xi-tong.html</id>
+
+        <updated>2019-09-01T13:07:55+08:00</updated>
+            <summary>
+                <![CDATA[
+                    今天云落发现了一款全新的静态网站生成系统 这款系统叫Publii 编辑器也很不错 似乎也支持代码高亮？？ 试试看看 /* 开始云落代码 */ define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录 define('WP_HOME', 'https://gitcafe.net');//设定网站首页 define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址 define('AUTOSAVE_INTERVAL', false);//禁用自动保存 define('WP_POST_REVISIONS', false);//禁用文章修订版本 date_default_timezone_set('Asia/Shanghai'); /* 结束云落代码 */
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>今天云落发现了一款全新的静态网站生成系统</p>
+<p class="msg msg--success">这款系统叫Publii</p>
+<blockquote>
+<p>编辑器也很不错</p>
+</blockquote>
+<p>似乎也支持代码高亮？？</p>
+<p>试试看看</p>
+<p><code>/* 开始云落代码 */</code><br><code>define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录</code><br><code>define('WP_HOME', 'https://gitcafe.net');//设定网站首页</code><br><code>define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址</code><br><code>define('AUTOSAVE_INTERVAL', false);//禁用自动保存</code><br><code>define('WP_POST_REVISIONS', false);//禁用文章修订版本</code><br><code>date_default_timezone_set('Asia/Shanghai');</code><br><code>/* 结束云落代码 */</code></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>看看这个标题</title>
         <author>
