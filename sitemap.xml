@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://gitcafe.ink/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://gitcafe.ink/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>http://gitcafe.ink/</loc>
+<loc>https://gitcafe.ink/</loc>
 </url>
 <url>
-<loc>http://gitcafe.ink/1.html</loc>
+<loc>https://gitcafe.ink/1.html</loc>
 <lastmod>2019-09-01T12:51:23+08:00</lastmod>
 <image:image>
-<image:loc>http://gitcafe.ink/media\posts\1/346332-106.jpg</image:loc>
+<image:loc>https://gitcafe.ink/media\posts\1/346332-106.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>http://gitcafe.ink/2.html</loc>
+<loc>https://gitcafe.ink/2.html</loc>
 <lastmod>2019-09-01T12:51:13+08:00</lastmod>
 </url>
 <url>
-<loc>http://gitcafe.ink/3.html</loc>
+<loc>https://gitcafe.ink/3.html</loc>
 <lastmod>2019-09-01T13:24:30+08:00</lastmod>
 </url>
 </urlset>
