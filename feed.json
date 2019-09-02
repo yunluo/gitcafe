@@ -2,17 +2,17 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "极客小站",
     "description": "",
-    "home_page_url": "https://yunluo.github.io",
-    "feed_url": "https://yunluo.github.io/feed.json",
+    "home_page_url": "http://gitcafe.ink",
+    "feed_url": "http://gitcafe.ink/feed.json",
     "user_comment": "",
-    "icon": "https://yunluo.github.io/media/website/gitcafe233.png",
+    "icon": "http://gitcafe.ink/media/website/gitcafe233.png",
     "author": {
         "name": "极客云落"
     },
     "items": [
         {
-            "id": "https://yunluo.github.io/3.html",
-            "url": "https://yunluo.github.io/3.html",
+            "id": "http://gitcafe.ink/3.html",
+            "url": "http://gitcafe.ink/3.html",
             "title": "一款全新的静态网站CMS系统",
             "summary": "3今天云落发现了一款全新的静态网站生成系统 这款系统叫Publii 编辑器也很不错 似乎也支持代码高亮？？ 试试看看 /* 开始云落代码 */ define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录 define('WP_HOME', 'https://gitcafe.net');//设定网站首页 define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址 define('AUTOSAVE_INTERVAL', false);//禁用自动保存 define('WP_POST_REVISIONS', false);//禁用文章修订版本 date_default_timezone_set('Asia/Shanghai'); /* 结束云落代码 */",
             "content_html": "<p>3今天云落发现了一款全新的静态网站生成系统</p>\n<p class=\"msg msg--success\">这款系统叫Publii</p>\n<blockquote>\n<p>编辑器也很不错</p>\n</blockquote>\n<p>似乎也支持代码高亮？？</p>\n<p>试试看看</p>\n<pre><code>/* 开始云落代码 */</code><br><code>define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录</code><br><code>define('WP_HOME', 'https://gitcafe.net');//设定网站首页</code><br><code>define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址</code><br><code>define('AUTOSAVE_INTERVAL', false);//禁用自动保存</code><br><code>define('WP_POST_REVISIONS', false);//禁用文章修订版本</code><br><code>date_default_timezone_set('Asia/Shanghai');</code><br><code>/* 结束云落代码 */</code></pre>",
@@ -25,8 +25,8 @@
             "date_modified": "2019-09-01T13:24:30+08:00"
         },
         {
-            "id": "https://yunluo.github.io/2.html",
-            "url": "https://yunluo.github.io/2.html",
+            "id": "http://gitcafe.ink/2.html",
+            "url": "http://gitcafe.ink/2.html",
             "title": "看看这个标题",
             "summary": "2看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 ",
             "content_html": "<p>2看看这个标题看看这个标题</p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p>看看这个标题看看这个标题</p>\n<p> </p>\n<p> </p>",
@@ -39,11 +39,11 @@
             "date_modified": "2019-09-01T12:51:13+08:00"
         },
         {
-            "id": "https://yunluo.github.io/1.html",
-            "url": "https://yunluo.github.io/1.html",
+            "id": "http://gitcafe.ink/1.html",
+            "url": "http://gitcafe.ink/1.html",
             "title": "你好，世界",
             "summary": "你好，世界 ",
-            "content_html": "<p>你好，世界</p>\n<p><img class=\"post__image--full align-center\" src=\"https://yunluo.github.io/media/posts/1/346332-106.jpg\" alt=\"\" width=\"1920\" height=\"1080\"></p>",
+            "content_html": "<p>你好，世界</p>\n<p><img class=\"post__image--full align-center\" src=\"http://gitcafe.ink/media/posts/1/346332-106.jpg\" alt=\"\" width=\"1920\" height=\"1080\"></p>",
             "author": {
                 "name": "极客云落"
             },
