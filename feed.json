@@ -13,7 +13,7 @@
         {
             "id": "https://gitcafe.ink/3.html",
             "url": "https://gitcafe.ink/3.html",
-            "title": "一款全新的静态网站CMS系统",
+            "title": "Publii：一款无需环境的静态网站CMS系统",
             "summary": "3今天云落发现了一款全新的静态网站生成系统 这款系统叫Publii 编辑器也很不错 似乎也支持代码高亮？？ 试试看看 /* 开始云落代码 */ define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录 define('WP_HOME', 'https://gitcafe.net');//设定网站首页 define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址 define('AUTOSAVE_INTERVAL', false);//禁用自动保存 define('WP_POST_REVISIONS', false);//禁用文章修订版本 date_default_timezone_set('Asia/Shanghai'); /* 结束云落代码 */",
             "content_html": "<p>3今天云落发现了一款全新的静态网站生成系统</p>\n<p class=\"msg msg--success\">这款系统叫Publii</p>\n<blockquote>\n<p>编辑器也很不错</p>\n</blockquote>\n<p>似乎也支持代码高亮？？</p>\n<p>试试看看</p>\n<pre><code>/* 开始云落代码 */</code><br><code>define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录</code><br><code>define('WP_HOME', 'https://gitcafe.net');//设定网站首页</code><br><code>define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址</code><br><code>define('AUTOSAVE_INTERVAL', false);//禁用自动保存</code><br><code>define('WP_POST_REVISIONS', false);//禁用文章修订版本</code><br><code>date_default_timezone_set('Asia/Shanghai');</code><br><code>/* 结束云落代码 */</code></pre>",
             "author": {
@@ -22,7 +22,7 @@
             "tags": [
             ],
             "date_published": "2019-09-01T13:07:55+08:00",
-            "date_modified": "2019-09-01T13:24:30+08:00"
+            "date_modified": "2019-09-03T17:31:29+08:00"
         },
         {
             "id": "https://gitcafe.ink/2.html",
