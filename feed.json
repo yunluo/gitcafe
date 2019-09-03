@@ -14,15 +14,15 @@
             "id": "https://gitcafe.ink/3.html",
             "url": "https://gitcafe.ink/3.html",
             "title": "Publii：一款无需环境的静态网站生成器系统",
-            "summary": "Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。 Publii ",
-            "content_html": "<p class=\"msg msg--info\">Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-221127734.png\" width=\"1920\" height=\"1040\"></p>\n<p>Publii</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-215752918.png\" width=\"734\" height=\"470\"></p>\n<div class=\"post__toc\"> </div>",
+            "summary": "Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。 Publii 并不是使用很多人猜想的MD编辑器，而是和WordPress一样的编辑器，之前使用WordPress的人可以无障碍熟悉编辑器。 你只管创作，发布部署的问题软件这里也有方案，支持很多托管平台，这里最推荐的就是github的了，国内也可以使用FTP等等，如果还没有的话，可以使用手动上传，然后是使用第三方服务同步同居实现的。 主题的后台选择也和WordPress类似，可视化操作，各种需求都可以搞定 文章写好，网站设置好之后点击同步即可，网站内容即可从本地同步到远程服务器，几秒钟即可完成。 更成熟的发展路线图，目前来看路线图实现完成的还可以的，后面就开始期待着插件系统的更新了。 官方网站：https://getpublii.com/",
+            "content_html": "<p class=\"msg msg--info\">Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-221127734.png\" width=\"1920\" height=\"1040\"></p>\n<p>Publii</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-224734128.png\" alt=\"\" width=\"1395\" height=\"517\"></p>\n<p>并不是使用很多人猜想的MD编辑器，而是和WordPress一样的编辑器，之前使用WordPress的人可以无障碍熟悉编辑器。</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-225854433.png\" alt=\"\" width=\"936\" height=\"543\"></p>\n<p>你只管创作，发布部署的问题软件这里也有方案，支持很多托管平台，这里最推荐的就是github的了，国内也可以使用FTP等等，如果还没有的话，可以使用手动上传，然后是使用第三方服务同步同居实现的。</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-230229687.png\" width=\"633\" height=\"535\"></p>\n<p>主题的后台选择也和WordPress类似，可视化操作，各种需求都可以搞定</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-230502784.png\" alt=\"\" width=\"1156\" height=\"380\"></p>\n<p>文章写好，网站设置好之后点击同步即可，网站内容即可从本地同步到远程服务器，几秒钟即可完成。</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-215752918.png\" width=\"734\" height=\"470\"></p>\n<p>更成熟的发展路线图，目前来看路线图实现完成的还可以的，后面就开始期待着插件系统的更新了。</p>\n<p><img class=\"post__image\" src=\"https://gitcafe.huashengls.com/mpic/20190903-230908901.png\" alt=\"\" width=\"770\" height=\"862\"></p>\n<hr>\n<p>官方网站：<a href=\"https://getpublii.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://getpublii.com/</a></p>",
             "author": {
                 "name": "极客云落"
             },
             "tags": [
             ],
             "date_published": "2019-09-01T13:07:55+08:00",
-            "date_modified": "2019-09-03T22:18:10+08:00"
+            "date_modified": "2019-09-03T23:13:43+08:00"
         },
         {
             "id": "https://gitcafe.ink/2.html",
