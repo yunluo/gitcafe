@@ -3,7 +3,7 @@
     <title>极客小站</title>
     <link href="https://gitcafe.ink/feed.xml" rel="self" />
     <link href="https://gitcafe.ink" />
-    <updated>2019-09-03T18:46:15+08:00</updated>
+    <updated>2019-09-03T19:30:16+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
@@ -17,19 +17,23 @@
         <link href="https://gitcafe.ink/3.html"/>
         <id>https://gitcafe.ink/3.html</id>
 
-        <updated>2019-09-03T17:31:29+08:00</updated>
+        <updated>2019-09-03T19:30:09+08:00</updated>
             <summary>
                 <![CDATA[
-                    3今天云落发现了一款全新的静态网站生成系统 这款系统叫Publii 编辑器也很不错 似乎也支持代码高亮？？ 试试看看 /* 开始云落代码 */ define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录 define('WP_HOME', 'https://gitcafe.net');//设定网站首页 define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址 define('AUTOSAVE_INTERVAL', false);//禁用自动保存 define('WP_POST_REVISIONS', false);//禁用文章修订版本 date_default_timezone_set('Asia/Shanghai'); /* 结束云落代码 */
+                    今天云落发现了一款全新的静态网站生成系统 这款系统叫Publii 编辑器也很不错 似乎也支持代码高亮？？ 试试看看 /* 开始云落代码 */ define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录 define('WP_HOME', 'https://gitcafe.net');//设定网站首页 define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址 define('AUTOSAVE_INTERVAL', false);//禁用自动保存 define('WP_POST_REVISIONS', false);//禁用文章修订版本 date_default_timezone_set('Asia/Shanghai'); /* 结束云落代码 */
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>3今天云落发现了一款全新的静态网站生成系统</p>
+                <p>今天云落发现了一款全新的静态网站生成系统</p>
 <p class="msg msg--success">这款系统叫Publii</p>
 <blockquote>
 <p>编辑器也很不错</p>
 </blockquote>
+<figure class="post__image post__image--center" ><img src="https://gitcafe.huashengls.com/mpic/20190903-191800956.png" alt="软件主界面" width="1240" height="819">
+<figcaption >Put your caption here</figcaption>
+</figure>
+<p> </p>
 <p>似乎也支持代码高亮？？</p>
 <p>试试看看</p>
 <pre><code>/* 开始云落代码 */</code><br><code>define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录</code><br><code>define('WP_HOME', 'https://gitcafe.net');//设定网站首页</code><br><code>define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址</code><br><code>define('AUTOSAVE_INTERVAL', false);//禁用自动保存</code><br><code>define('WP_POST_REVISIONS', false);//禁用文章修订版本</code><br><code>date_default_timezone_set('Asia/Shanghai');</code><br><code>/* 结束云落代码 */</code></pre>
