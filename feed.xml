@@ -3,7 +3,7 @@
     <title>极客小站</title>
     <link href="https://gitcafe.ink/feed.xml" rel="self" />
     <link href="https://gitcafe.ink" />
-    <updated>2019-09-03T23:13:49+08:00</updated>
+    <updated>2019-09-03T23:31:28+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
@@ -45,29 +45,63 @@
         </content>
     </entry>
     <entry>
-        <title>看看这个标题</title>
+        <title>测试下Publii的编辑器功能</title>
         <author>
             <name>极客云落</name>
         </author>
         <link href="https://gitcafe.ink/2.html"/>
         <id>https://gitcafe.ink/2.html</id>
 
-        <updated>2019-09-01T12:51:13+08:00</updated>
+        <updated>2019-09-03T23:31:19+08:00</updated>
             <summary>
                 <![CDATA[
-                    2看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 看看这个标题看看这个标题 
+                    这是一个粗体，这是一个斜体，这是一个下划线，这是一个中划线 这是一个链接：https://gitcafe.ink/ 这是一个引用文本，代表引用别人的话。 我们的生活被框在了一个个熟悉的首屏 icon 里，独角兽和流量大户在行业赛道不断角逐，它们是这时代的主角 但还有这样一些，一直在坚持的个人开发者、个体户、个人创业者、小公司、小众产品，因为不够刚需、缺少推广、没有大腿可抱而不为人知，但产品足够用心、好玩好用、口碑扎实，这些给平淡生活带来一丝惊喜的人，正在通过自己独特的方式诠释、甚至影响着这个世界 Weauth 是一个用于微信登录的小程序，无需预约申请官方的登陆，直接使用小程序的方案，即可实现曲线救国的微信登录。实现原理也很简单，就是在小程序获得用户的信息之后，将其转发给第三方接入应用。我们获得小程序转发的用户信息之后，然后将其用户信息插入我自己的系统之中，从而实现用户的快速注册与登录。 用户信息是一个经过编码的数组，我们首先对其进行解码，然后进行从数组中取值就可以了。 其实前面所提到的流程基本上都没问题，实际上最终的问题就是卡在最后一步，就是自动登录上面。在成功获取到用户信息之后，将其插入到系统的数据库里面的时候，让注册成功，但是在自动的时候却无法登陆，原本我以为自动登录的是代码有问题 或者说因为是 SSL 的干扰，但是经过测试，自动登录代码是没有问题的。真实原因经排查主要是 cookie 的问题［我猜的］，准确的说是 cookie 的路径问题 因为在小程序服务器向系统服务器提交请求的时候，是有一个/weauth 路径的，所以我猜测，自动登录生成的 cookie 是不是在这个路径之下 而没有生成在网站的根目录。当然或许也不是这个问题，反正总之一句话就是自动登录完全没有效果，或者是因为那个被提交页面并没有经过浏览器访问，所以并没有生成对应的 cookie。 这是我目前解决这个问题的一个临时办法。就是在确定账号注册之后，进行一个 GET 跳转，使用这个跳转来实现自动登录。实际来说是用这个跳转来进行自动登录，实际上是并不是太安全的，因为 GET 的数据是直接就可以看到的。经过测试使用 GET&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>2看看这个标题看看这个标题</p>
-<p>看看这个标题看看这个标题</p>
-<p> </p>
-<p>看看这个标题看看这个标题</p>
-<p> </p>
-<p>看看这个标题看看这个标题</p>
-<p> </p>
-<p>看看这个标题看看这个标题</p>
+                <p><strong>这是一个粗体</strong>，<em>这是一个斜体</em>，<span style="text-decoration: underline;">这是一个下划线</span>，<span style="text-decoration: line-through;">这是一个中划线</span></p>
+<p>这是一个链接：<a href="https://gitcafe.ink/" target="_blank" rel="noopener noreferrer">https://gitcafe.ink/</a></p>
+<blockquote>
+<p>这是一个引用文本，代表引用别人的话。</p>
+</blockquote>
+<p class="align-left">我们的生活被框在了一个个熟悉的首屏 icon 里，独角兽和流量大户在行业赛道不断角逐，它们是这时代的主角</p>
+<p class="align-center">但还有这样一些，一直在坚持的个人开发者、个体户、个人创业者、小公司、小众产品，因为不够刚需、缺少推广、没有大腿可抱而不为人知，但产品足够用心、好玩好用、口碑扎实，这些给平淡生活带来一丝惊喜的人，正在通过自己独特的方式诠释、甚至影响着这个世界</p>
+<p class="align-right">Weauth 是一个用于微信登录的小程序，无需预约申请官方的登陆，直接使用小程序的方案，即可实现曲线救国的微信登录。实现原理也很简单，就是在小程序获得用户的信息之后，将其转发给第三方接入应用。我们获得小程序转发的用户信息之后，然后将其用户信息插入我自己的系统之中，从而实现用户的快速注册与登录。</p>
+<ul>
+<li>程序的登录和接入流程非常简单</li>
+<li>首先我们后台生成一个随机数字</li>
+<li>然后拼接成一个特殊字符串，然后向小程序的服务器发起一个请求</li>
+<li>小程序服务器收到我们请求之后验证一下没问题会返回一个二维码。</li>
+<li>在用户扫描二维码并完成授权之后，小程序服务器会向我们系统这边发起一个请求</li>
+</ul>
+<ol>
+<li>然后将其用户信息插入</li>
+<li>我自己的系统之中，</li>
+<li>从而实现用户的快速注册与登录。</li>
+</ol>
+<table>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p class="dropcap">用户信息是一个经过编码的数组，我们首先对其进行解码，然后进行从数组中取值就可以了。</p>
+<p class="msg msg--info">其实前面所提到的流程基本上都没问题，实际上最终的问题就是卡在最后一步，就是自动登录上面。在成功获取到用户信息之后，将其插入到系统的数据库里面的时候，让注册成功，但是在自动的时候却无法登陆，原本我以为自动登录的是代码有问题</p>
+<p class="msg msg--highlight ">或者说因为是 SSL 的干扰，但是经过测试，自动登录代码是没有问题的。真实原因经排查主要是 cookie 的问题［我猜的］，准确的说是 cookie 的路径问题</p>
+<p class="msg msg--success">因为在小程序服务器向系统服务器提交请求的时候，是有一个/weauth 路径的，所以我猜测，自动登录生成的 cookie 是不是在这个路径之下</p>
+<p class="msg msg--warning">而没有生成在网站的根目录。当然或许也不是这个问题，反正总之一句话就是自动登录完全没有效果，或者是因为那个被提交页面并没有经过浏览器访问，所以并没有生成对应的 cookie。</p>
+<p>这是我目前解决这个问题的一个临时办法。就是在确定账号注册之后，进行一个 GET 跳转，使用这个跳转来实现自动登录。实际来说是用这个跳转来进行自动登录，实际上是并不是太安全的，因为 <code>GET</code> 的数据是直接就可以看到的。经过测试使用<code> GET</code> 跳转进行登陆是可以实现的，那么问题就在于如何安全的使用 <code>GET</code> 进行自动登陆。</p>
+<h2 id="mcetoc_1djrrvg7e0">测试结果</h2>
+<pre>&lt;div id="vcomments"&gt;&lt;/div&gt;<br>&lt;script&gt;<br>"use strict";<br>function publiiLoadvaline() {<br> if (valine_loaded) return !1;<br> var e = document.getElementById("vcomments").offsetTop;<br> !valine_loaded &amp;&amp; (window.scrollY || window.pageYOffset) + window.innerHeight &gt; e &amp;&amp; (valine_loaded = !0, <br> new Valine({<br> el: "#vcomments",<br> appId: "4USiY7iqwOMflOfP6u3pdJY8-9Nh9j0Va",<br> appKey: "dXPcl0ieDewYgnHY7Nu6tdS9",<br> pageSize: "20",<br> serverURLs: "https://lc.gitcafe.net",<br> placeholder: "来而不射非礼也！"<br> }));<br>}<br>var valine_loaded = !1;<br>publiiLoadvaline(), window.onscroll = function() {<br> publiiLoadvaline();<br>};<br>&lt;/script&gt;</pre>
 <p> </p>
 <p> </p>
             ]]>
@@ -81,16 +115,19 @@
         <link href="https://gitcafe.ink/1.html"/>
         <id>https://gitcafe.ink/1.html</id>
 
-        <updated>2019-09-03T22:21:07+08:00</updated>
+        <updated>2019-09-03T23:17:39+08:00</updated>
             <summary>
                 <![CDATA[
-                    Publii已安装完毕，您可以开始使用Publii来构建一个静态网站，并将它部署到远程服务器里面。 您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。
+                    Publii已安装完毕，您可以开始使用Publii来构建一个静态网站，并将它部署到远程服务器里面。 您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。 似乎有代码高亮 &lt;script&gt; "use strict"; function publiiLoadvaline() { if (valine_loaded) return !1; var e = document.getElementById("vcomments").offsetTop; !valine_loaded &amp;&amp; (window.scrollY || window.pageYOffset) + window.innerHeight &gt; e &amp;&amp; (valine_loaded = !0,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p class="dropcap">Publii已安装完毕，您可以开始使用Publii来构建一个静态网站，并将它部署到远程服务器里面。</p>
 <p class="msg msg--warning">您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。</p>
+<p>似乎有代码高亮</p>
+<p class="msg msg--highlight ">&lt;script&gt;<br>"use strict";<br>function publiiLoadvaline() {<br> if (valine_loaded) return !1;<br> var e = document.getElementById("vcomments").offsetTop;<br> !valine_loaded &amp;&amp; (window.scrollY || window.pageYOffset) + window.innerHeight &gt; e &amp;&amp; (valine_loaded = !0, <br> new Valine({<br> el: "#vcomments",<br> appId: "4USiY7iqwOMflOfP6u3pdJY8-9Nh9j0Va",<br> appKey: "dXPcl0ieDewYgnHY7Nu6tdS9",<br> pageSize: "20",<br> serverURLs: "https://lc.gitcafe.net",<br> placeholder: "来而不射非礼也！"<br> }));<br>}<br>var valine_loaded = !1;<br>publiiLoadvaline(), window.onscroll = function() {<br> publiiLoadvaline();<br>};<br>&lt;/script&gt;</p>
+<p> </p>
             ]]>
         </content>
     </entry>
