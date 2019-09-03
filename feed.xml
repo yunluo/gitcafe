@@ -3,7 +3,7 @@
     <title>极客小站</title>
     <link href="https://gitcafe.ink/feed.xml" rel="self" />
     <link href="https://gitcafe.ink" />
-    <updated>2019-09-04T00:12:49+08:00</updated>
+    <updated>2019-09-04T00:15:21+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
@@ -52,7 +52,7 @@
         <link href="https://gitcafe.ink/2.html"/>
         <id>https://gitcafe.ink/2.html</id>
 
-        <updated>2019-09-03T23:31:19+08:00</updated>
+        <updated>2019-09-04T00:15:14+08:00</updated>
             <summary>
                 <![CDATA[
                     这是一个粗体，这是一个斜体，这是一个下划线，这是一个中划线 这是一个链接：https://gitcafe.ink/ 这是一个引用文本，代表引用别人的话。 我们的生活被框在了一个个熟悉的首屏 icon&hellip;
@@ -102,8 +102,6 @@
 <p>这是我目前解决这个问题的一个临时办法。就是在确定账号注册之后，进行一个 GET 跳转，使用这个跳转来实现自动登录。实际来说是用这个跳转来进行自动登录，实际上是并不是太安全的，因为 <code>GET</code> 的数据是直接就可以看到的。经过测试使用<code> GET</code> 跳转进行登陆是可以实现的，那么问题就在于如何安全的使用 <code>GET</code> 进行自动登陆。</p>
 <h2 id="mcetoc_1djrrvg7e0">测试结果</h2>
 <pre>&lt;div id="vcomments"&gt;&lt;/div&gt;<br>&lt;script&gt;<br>"use strict";<br>function publiiLoadvaline() {<br> if (valine_loaded) return !1;<br> var e = document.getElementById("vcomments").offsetTop;<br> !valine_loaded &amp;&amp; (window.scrollY || window.pageYOffset) + window.innerHeight &gt; e &amp;&amp; (valine_loaded = !0, <br> new Valine({<br> el: "#vcomments",<br> appId: "4USiY7iqwOMflOfP6u3pdJY8-9Nh9j0Va",<br> appKey: "dXPcl0ieDewYgnHY7Nu6tdS9",<br> pageSize: "20",<br> serverURLs: "https://lc.gitcafe.net",<br> placeholder: "来而不射非礼也！"<br> }));<br>}<br>var valine_loaded = !1;<br>publiiLoadvaline(), window.onscroll = function() {<br> publiiLoadvaline();<br>};<br>&lt;/script&gt;</pre>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
