@@ -3,7 +3,7 @@
     <title>极客小站</title>
     <link href="https://gitcafe.ink/feed.xml" rel="self" />
     <link href="https://gitcafe.ink" />
-    <updated>2019-09-03T22:15:34+08:00</updated>
+    <updated>2019-09-03T22:21:30+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://gitcafe.ink/3.html"/>
         <id>https://gitcafe.ink/3.html</id>
 
-        <updated>2019-09-03T22:15:28+08:00</updated>
+        <updated>2019-09-03T22:18:10+08:00</updated>
             <summary>
                 <![CDATA[
                     Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。 Publii 
@@ -26,9 +26,9 @@
         <content type="html">
             <![CDATA[
                 <p class="msg msg--info">Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。</p>
-<p><img class="post__image--full" src="https://gitcafe.huashengls.com/mpic/20190903-221127734.png" alt="" width="1920" height="1040"></p>
+<p><img class="post__image" src="https://gitcafe.huashengls.com/mpic/20190903-221127734.png" width="1920" height="1040"></p>
 <p>Publii</p>
-<p><img class="post__image--full" src="https://gitcafe.huashengls.com/mpic/20190903-215752918.png" alt="" width="734" height="470"></p>
+<p><img class="post__image" src="https://gitcafe.huashengls.com/mpic/20190903-215752918.png" width="734" height="470"></p>
 <div class="post__toc"> </div>
             ]]>
         </content>
@@ -70,16 +70,16 @@
         <link href="https://gitcafe.ink/1.html"/>
         <id>https://gitcafe.ink/1.html</id>
 
-        <updated>2019-09-01T12:51:23+08:00</updated>
+        <updated>2019-09-03T22:21:07+08:00</updated>
             <summary>
                 <![CDATA[
-                    你好，世界 
+                    Publii已安装完毕，您可以开始使用Publii来构建一个静态网站，并将它部署到远程服务器里面。 您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>你好，世界</p>
-<p><img class="post__image--full align-center" src="https://gitcafe.ink/media/posts/1/346332-106.jpg" alt="" width="1920" height="1080"></p>
+                <p class="dropcap">Publii已安装完毕，您可以开始使用Publii来构建一个静态网站，并将它部署到远程服务器里面。</p>
+<p class="msg msg--warning">您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。</p>
             ]]>
         </content>
     </entry>
