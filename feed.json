@@ -13,16 +13,16 @@
         {
             "id": "https://gitcafe.ink/3.html",
             "url": "https://gitcafe.ink/3.html",
-            "title": "Publii：一款无需环境的静态网站CMS系统",
-            "summary": "今天云落发现了一款全新的静态网站生成系统 这款系统叫Publii 编辑器也很不错 似乎也支持代码高亮？？ 试试看看 /* 开始云落代码 */ define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录 define('WP_HOME', 'https://gitcafe.net');//设定网站首页 define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址 define('AUTOSAVE_INTERVAL', false);//禁用自动保存 define('WP_POST_REVISIONS', false);//禁用文章修订版本 date_default_timezone_set('Asia/Shanghai'); /* 结束云落代码 */",
-            "content_html": "<p>今天云落发现了一款全新的静态网站生成系统</p>\n<p class=\"msg msg--success\">这款系统叫Publii</p>\n<blockquote>\n<p>编辑器也很不错</p>\n</blockquote>\n<figure class=\"post__image post__image--center\" ><img src=\"https://gitcafe.huashengls.com/mpic/20190903-191800956.png\" alt=\"软件主界面\" width=\"1240\" height=\"819\">\n<figcaption >Put your caption here</figcaption>\n</figure>\n<p> </p>\n<p>似乎也支持代码高亮？？</p>\n<p>试试看看</p>\n<pre><code>/* 开始云落代码 */</code><br><code>define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true );//更新跳过wp-content目录</code><br><code>define('WP_HOME', 'https://gitcafe.net');//设定网站首页</code><br><code>define('WP_SITEURL', 'https://gitcafe.net');//设定网站网址</code><br><code>define('AUTOSAVE_INTERVAL', false);//禁用自动保存</code><br><code>define('WP_POST_REVISIONS', false);//禁用文章修订版本</code><br><code>date_default_timezone_set('Asia/Shanghai');</code><br><code>/* 结束云落代码 */</code></pre>",
+            "title": "Publii：一款无需环境的静态网站生成器系统",
+            "summary": "Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。 Publii ",
+            "content_html": "<p class=\"msg msg--info\">Publii是一款全平台的桌面静态网站生成器软件，支持Windows，MacOS，Linux系统，可以快速轻松的建立一个纯净态网站，与网络上其他静态网站生成器比较，Publii对新手非常友好，不需要安装其他软件也可以使用，可视化点击操作即可。</p>\n<p><img class=\"post__image--full\" src=\"https://gitcafe.huashengls.com/mpic/20190903-221127734.png\" alt=\"\" width=\"1920\" height=\"1040\"></p>\n<p>Publii</p>\n<p><img class=\"post__image--full\" src=\"https://gitcafe.huashengls.com/mpic/20190903-215752918.png\" alt=\"\" width=\"734\" height=\"470\"></p>\n<div class=\"post__toc\"> </div>",
             "author": {
                 "name": "极客云落"
             },
             "tags": [
             ],
             "date_published": "2019-09-01T13:07:55+08:00",
-            "date_modified": "2019-09-03T19:30:09+08:00"
+            "date_modified": "2019-09-03T22:15:28+08:00"
         },
         {
             "id": "https://gitcafe.ink/2.html",
