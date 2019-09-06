@@ -3,7 +3,7 @@
     <title>极客小站</title>
     <link href="https://gitcafe.ink/feed.xml" rel="self" />
     <link href="https://gitcafe.ink" />
-    <updated>2019-09-04T00:15:21+08:00</updated>
+    <updated>2019-09-06T10:15:40+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
@@ -113,7 +113,7 @@
         <link href="https://gitcafe.ink/1.html"/>
         <id>https://gitcafe.ink/1.html</id>
 
-        <updated>2019-09-03T23:17:39+08:00</updated>
+        <updated>2019-09-06T10:15:33+08:00</updated>
             <summary>
                 <![CDATA[
                     Publii已安装完毕，您可以开始使用Publii来构建一个静态网站，并将它部署到远程服务器里面。 您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。 似乎有代码高亮 &lt;script&gt; "use&hellip;
@@ -125,7 +125,8 @@
 <p class="msg msg--warning">您可以发布到github，gitlab，FTP，SFTP等等，你也可以手动上传到服务器，当然我们更推荐您使用一些专业的同步软件来实现自动部署。</p>
 <p>似乎有代码高亮</p>
 <p class="msg msg--highlight ">&lt;script&gt;<br>"use strict";<br>function publiiLoadvaline() {<br> if (valine_loaded) return !1;<br> var e = document.getElementById("vcomments").offsetTop;<br> !valine_loaded &amp;&amp; (window.scrollY || window.pageYOffset) + window.innerHeight &gt; e &amp;&amp; (valine_loaded = !0, <br> new Valine({<br> el: "#vcomments",<br> appId: "4USiY7iqwOMflOfP6u3pdJY8-9Nh9j0Va",<br> appKey: "dXPcl0ieDewYgnHY7Nu6tdS9",<br> pageSize: "20",<br> serverURLs: "https://lc.gitcafe.net",<br> placeholder: "来而不射非礼也！"<br> }));<br>}<br>var valine_loaded = !1;<br>publiiLoadvaline(), window.onscroll = function() {<br> publiiLoadvaline();<br>};<br>&lt;/script&gt;</p>
-<p> </p>
+<div class="snspay-content" > </div>
+<script src="https://sns.io/js/embed.js" charset="utf-8"></script>
             ]]>
         </content>
     </entry>
