@@ -3,12 +3,62 @@
     <title>极客小站</title>
     <link href="https://gitcafe.ink/feed.xml" rel="self" />
     <link href="https://gitcafe.ink" />
-    <updated>2020-01-14T22:19:39+08:00</updated>
+    <updated>2020-01-18T21:40:10+08:00</updated>
     <author>
         <name>极客云落</name>
     </author>
     <id>https://gitcafe.ink</id>
 
+    <entry>
+        <title>主题开发准备</title>
+        <author>
+            <name>极客云落</name>
+        </author>
+        <link href="https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html"/>
+        <id>https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html</id>
+
+        <updated>2020-01-18T21:40:03+08:00</updated>
+            <summary>
+                <![CDATA[
+                    主题负责外观和布局 插件负责功能和集成 主题多种形式多种广告模块幻灯片模块插件邮箱SMTP代码高亮源代码压缩禁用古腾堡编辑器短代码单页下载下载面板短代码弹窗下载短代码CDN以及缩略图图片弹窗安全注册微信推送会员在线支付游客在线支付文章短代码微信登录说说随机头像禁用附件页面各种用户邮箱发送问题
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>主题负责外观和布局</p>
+<p>插件负责功能和集成</p>
+<p>主题</p>
+<ul>
+<li>多种形式</li>
+<li>多种广告模块</li>
+<li>幻灯片模块</li>
+</ul>
+<h2 id="mcetoc_1duse1c440">插件</h2>
+<ul>
+<li>邮箱SMTP</li>
+<li>代码高亮</li>
+<li>源代码压缩</li>
+<li>禁用古腾堡编辑器</li>
+<li>短代码</li>
+<li>单页下载</li>
+<li>下载面板短代码</li>
+<li>弹窗下载短代码</li>
+<li>CDN以及缩略图</li>
+<li>图片弹窗</li>
+<li>安全注册</li>
+<li>微信推送</li>
+<li>会员在线支付</li>
+<li>游客在线支付</li>
+<li>文章短代码</li>
+<li>微信登录</li>
+<li>说说</li>
+<li>随机头像</li>
+<li>禁用附件页面</li>
+<li>各种用户邮箱发送问题</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>谈谈自己的三妻四妾</title>
         <author>

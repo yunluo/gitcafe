@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主题开发准备 - 极客小站</title><meta name="description" content="主题负责外观和布局 插件负责功能和集成 主题多种形式多种广告模块幻灯片模块插件邮箱SMTP代码高亮源代码压缩禁用古腾堡编辑器短代码单页下载下载面板短代码弹窗下载短代码CDN以及缩略图图片弹窗安全注册微信推送会员在线支付游客在线支付文章短代码微信登录说说随机头像禁用附件页面各种用户邮箱发送问题"><meta name="robots" content="index, follow"><link rel="canonical" href="https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html"><link rel="alternate" type="application/atom+xml" href="https://gitcafe.ink/feed.xml"><link rel="alternate" type="application/json" href="https://gitcafe.ink/feed.json"><meta property="og:title" content="主题开发准备"><meta property="og:image" content="https://gitcafe.ink/media/website/gitcafe233.png"><meta property="og:site_name" content="极客小站"><meta property="og:description" content="主题负责外观和布局 插件负责功能和集成 主题多种形式多种广告模块幻灯片模块插件邮箱SMTP代码高亮源代码压缩禁用古腾堡编辑器短代码单页下载下载面板短代码弹窗下载短代码CDN以及缩略图图片弹窗安全注册微信推送会员在线支付游客在线支付文章短代码微信登录说说随机头像禁用附件页面各种用户邮箱发送问题"><meta property="og:url" content="https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html"><meta property="og:type" content="article"><link rel="shortcut icon" href="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/favicon.ico" type="image/x-icon"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><style>h1,h2,h3,h4,h5,h6,.btn,[type=button],[type=submit],button,.navbar .navbar__menu li,.navbar_mobile_sidebar .navbar__menu li,.feed__author,.post__tag,.post__share>a span,.post__nav-link>span,.footer{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}body,h1,.h1,blockquote,.search__input,.author__name,.author__info>p,.feed__item h2,.post__nav-link{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}</style><link rel="stylesheet" href="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/css/style.css"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html"},"headline":"主题开发准备","datePublished":"2020-01-18T21:40","dateModified":"2020-01-18T21:40","image":{"@type":"ImageObject","url":"https://gitcafe.ink/media/website/gitcafe233.png","height":49,"width":224},"description":"主题负责外观和布局 插件负责功能和集成 主题多种形式多种广告模块幻灯片模块插件邮箱SMTP代码高亮源代码压缩禁用古腾堡编辑器短代码单页下载下载面板短代码弹窗下载短代码CDN以及缩略图图片弹窗安全注册微信推送会员在线支付游客在线支付文章短代码微信登录说说随机头像禁用附件页面各种用户邮箱发送问题","author":{"@type":"Person","name":"极客云落"},"publisher":{"@type":"Organization","name":"极客云落","logo":{"@type":"ImageObject","url":"https://gitcafe.ink/media/website/gitcafe233.png","height":49,"width":224}}}</script><script src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/js/ls.parent-fit.min.js"></script><script async src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/js/lazysizes.min.js"></script><meta name="baidu-site-verification" content="d2KEfH6Caj"><style type="text/css">#vcomments .info{display:none;}.prettyprinted,pre.prettyprinted{background-color:#272822;border:none;overflow:hidden;padding:10px 15px;}.prettyprinted.linenums,pre.prettyprinted.linenums{-webkit-box-shadow:inset 40px 0 0 #39382E,inset 41px 0 0 #464741;-moz-box-shadow:inset 40px 0 0 #39382E,inset 41px 0 0 #464741;box-shadow:inset 40px 0 0 #39382E,inset 41px 0 0 #464741;}.prettyprinted.linenums ol,pre.prettyprinted.linenums ol{margin:0 0 0 -9px;}.prettyprinted.linenums ol li,pre.prettyprinted.linenums ol li{padding-left:12px;color:#bebec5;line-height:20px;margin-left:0;list-style:decimal;}.prettyprinted .com{color:#93a1a1;}.prettyprinted .lit{color:#AE81FF;}.prettyprinted .pun,.prettyprinted .opn,.prettyprinted .clo{color:#F8F8F2;}.prettyprinted .fun{color:#dc322f;}.prettyprinted .str,.prettyprinted .atv{color:#E6DB74;}.prettyprinted .kwd,.prettyprinted .tag{color:#F92659;}.prettyprinted .typ,.prettyprinted .atn,.prettyprinted .dec,.prettyprinted .var{color:#A6E22E;}.prettyprinted .pln{color:#66D9EF;}</style></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://gitcafe.ink/"><img src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/gitcafe233.png" alt="极客小站"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://gitcafe.ink/" target="_self">首页</a></li><li><a href="https://gitcafe.ink/tags/life/" target="_self">生活</a></li><li><a href="https://gitcafe.ink/tags/ji-zhu/" target="_self">技术</a></li><li><a href="https://gitcafe.ink/3.html" target="_self">Publii</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><div class="search__overlay-inner"><form action="https://gitcafe.ink/search.html" class="search__form"><input class="search__input js-search-input" type="search" name="q" placeholder="search..." autofocus="autofocus"></form><button class="search__close js-search-close" aria-label="Close">Close</button></div></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false"><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#search"/></svg></button></div></header><main><article class="post"><div class="hero"><div class="hero__image"><img class="hero__image-img lazyload" data-src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/350947-106.jpg" srcset="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/responsive/350947-106-xs.jpg 300w, https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/responsive/350947-106-sm.jpg 480w, https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/responsive/350947-106-md.jpg 768w, https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/responsive/350947-106-lg.jpg 1024w, https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/responsive/350947-106-xl.jpg 1360w, https://yunluo.oss-cn-shanghai.aliyuncs.com/static/img/responsive/350947-106-2xl.jpg 1600w" sizes="(max-width: 1600px) 100vw, 1600px" data-sizes="auto" alt="" height="" width=""></div><header class="hero__content"><div class="wrapper"><div class="post__meta"><time datetime="2020-01-18T21:40">一月 18, 2020</time></div><h1><a href="https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html">主题开发准备</a></h1><div class="post__meta post__meta--author"><img class="lazyload post__author-thumb" data-src="https://yunluo.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/1_avatar-110x110.png" alt="极客云落"> <a href="https://gitcafe.ink/authors/yunluo/" class="feed__author invert">极客云落</a></div></div></header></div><div class="wrapper post__entry"><p>主题负责外观和布局</p><p>插件负责功能和集成</p><p>主题</p><ul><li>多种形式</li><li>多种广告模块</li><li>幻灯片模块</li></ul><h2>插件</h2><ul><li>邮箱SMTP</li><li>代码高亮</li><li>源代码压缩</li><li>禁用古腾堡编辑器</li><li>短代码</li><li>单页下载</li><li>下载面板短代码</li><li>弹窗下载短代码</li><li>CDN以及缩略图</li><li>图片弹窗</li><li>安全注册</li><li>微信推送</li><li>会员在线支付</li><li>游客在线支付</li><li>文章短代码</li><li>微信登录</li><li>说说</li><li>随机头像</li><li>禁用附件页面</li><li>各种用户邮箱发送问题</li></ul></div><footer class="wrapper post__footer"><p class="post__last-updated">This article was updated on 一月 18, 2020 <span id="busuanzi_container_page_pv">本文阅读&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;次</span></p><div class="post__share"></div><div class="post__bio bio"><img class="lazyload bio__avatar" data-src="https://yunluo.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/1_avatar-110x110.png" alt="极客云落"><div class="bio__info"><h3 class="bio__name"><a href="https://gitcafe.ink/authors/yunluo/" class="invert" rel="author">极客云落</a></h3><p>我是云落，极客公园园长</p></div></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://gitcafe.ink/tan-tan-zi-ji-de-san-qi-si-qie.html" class="invert post__nav-link" rel="prev"><span>Previous</span> 谈谈自己的三妻四妾</a></div></div></nav><div class="post__comments"><div class="wrapper"><h2 class="h5">评论</h2><div id="vcomments"></div><script>"use strict";
+               function publiiLoadvaline() {
+                   if (valine_loaded) return !1;
+                   var e = document.getElementById("vcomments").offsetTop;
+                   !valine_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > e && (valine_loaded = !0, 
+                   new Valine({
+                       el: "#vcomments",
+                       appId: "4USiY7iqwOMflOfP6u3pdJY8-9Nh9j0Va",
+                       appKey: "dXPcl0ieDewYgnHY7Nu6tdS9",
+                       pageSize: "20",
+                       serverURLs: "https://lc.gitcafe.net",
+                       placeholder: "来而不射非礼也！"
+                   }));
+               }
+               var valine_loaded = !1;
+               publiiLoadvaline(), window.onscroll = function() {
+                   publiiLoadvaline();
+               };</script></div></div><div class="banner banner--after-post"><div class="wrapper"><script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script></div></div></main><footer class="footer"><div class="footer__social"><a href="#" aria-label="Facebook"><svg><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#facebook"/></svg> </a><a href="#" aria-label="Twitter"><svg><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#twitter"/></svg> </a><a href="#" aria-label="Instagram"><svg><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#instagram"/></svg> </a><a href="#" aria-label="LinkedIn"><svg><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#linkedin"/></svg> </a><a href="#" aria-label="Vimeo"><svg><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#vimeo"/></svg> </a><a href="#" aria-label="Pinterest"><svg><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#pinterest"/></svg></a></div><div class="footer__copyright">Powered by GitHub Pages <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div><button class="footer__bttop js-footer__bttop" aria-label="返回顶部"><svg><title>返回顶部</title><use xlink:href="https://gitcafe.ink/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script>window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',
+        animationSpeed: 300,
+        submenuWidth: 'auto',
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: true, 
+        relatedContainerForOverlayMenuSelector: '.top',
+   };</script><script defer="defer" src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/js/scripts.min.js"></script><script>var lazyFeaturedImage=function lazyFeaturedImage(){var b=document.querySelectorAll(".hero__image-img");for(var a=0;a<b.length;a++){var c=b[a];c.addEventListener("lazyloaded",function(f){var d=f.target.parentNode;d.classList.add("hero__image--overlay")})}};lazyFeaturedImage();</script><script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/js/prettify.js"></script><script src="https://yunluo.oss-cn-shanghai.aliyuncs.com/static/js/run_prettify.js"></script><div class="cookie-popup js-cookie-popup cookie-popup--uses-badge"><h2>This website uses cookies</h2><p>Select which cookies to opt-in to via the checkboxes below; our website uses cookies to examine site traffic and user activity while on our site, for marketing, and to provide social media functionality. <a href="#not-specified">More details...</a></p><form><input id="gdpr-necessary" name="gdpr-necessary" checked="checked" disabled="disabled" type="checkbox"> <label for="gdpr-necessary">Required</label> <input id="gdpr-functions" name="gdpr-functions" type="checkbox"> <label for="gdpr-functions">Functionality</label> <input id="gdpr-analytics" name="gdpr-analytics" type="checkbox"> <label for="gdpr-analytics">Analytical</label> <input id="gdpr-marketing" name="gdpr-marketing" type="checkbox"> <label for="gdpr-marketing">Marketing</label><p class="cookie-popup__save-wrapper"><button type="submit" class="cookie-popup__save">Save</button></p></form><span class="cookie-popup-label">Cookie Policy</span></div><script>(function() {
+                function addScript (src, inline) {
+                    var newScript = document.createElement('script');
+
+                    if (src) {
+                        newScript.setAttribute('src', src);
+                    }
+
+                    if (inline) {
+                        newScript.text = inline;
+                    }
+
+                    document.body.appendChild(newScript);
+                }
+
+                var popup = document.querySelector('.js-cookie-popup');
+                var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                var save = popup.querySelector('button');
+                var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                
+
+                popup.addEventListener('click', function() {
+                    if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    }
+                });
+
+                save.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.classList.remove('cookie-popup--is-sticky');
+                    var allowedGroups = [];
+
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        if (checkboxes[i].checked) {
+                            var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+
+                            allowedGroups.push(groupName);
+                        }
+                    }
+
+                    localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                    popup.classList.remove('cookie-popup--is-sticky');
+
+                    setTimeout(function () {
+                        if (currentConfig !== null) {
+                            window.location.reload();
+                        }
+                    }, 250);
+                });
+
+                if (currentConfig === null) {
+                    popup.classList.add('cookie-popup--is-sticky');
+                } else {
+                    if (currentConfig !== '') {
+                        var allowedGroups = currentConfig.split(',');
+
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                }
+            })();</script></body></html>

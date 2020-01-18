@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html",
+            "url": "https://gitcafe.ink/zhu-ti-kai-fa-zhun-bei.html",
+            "title": "主题开发准备",
+            "summary": "主题负责外观和布局 插件负责功能和集成 主题多种形式多种广告模块幻灯片模块插件邮箱SMTP代码高亮源代码压缩禁用古腾堡编辑器短代码单页下载下载面板短代码弹窗下载短代码CDN以及缩略图图片弹窗安全注册微信推送会员在线支付游客在线支付文章短代码微信登录说说随机头像禁用附件页面各种用户邮箱发送问题",
+            "content_html": "<p>主题负责外观和布局</p>\n<p>插件负责功能和集成</p>\n<p>主题</p>\n<ul>\n<li>多种形式</li>\n<li>多种广告模块</li>\n<li>幻灯片模块</li>\n</ul>\n<h2 id=\"mcetoc_1duse1c440\">插件</h2>\n<ul>\n<li>邮箱SMTP</li>\n<li>代码高亮</li>\n<li>源代码压缩</li>\n<li>禁用古腾堡编辑器</li>\n<li>短代码</li>\n<li>单页下载</li>\n<li>下载面板短代码</li>\n<li>弹窗下载短代码</li>\n<li>CDN以及缩略图</li>\n<li>图片弹窗</li>\n<li>安全注册</li>\n<li>微信推送</li>\n<li>会员在线支付</li>\n<li>游客在线支付</li>\n<li>文章短代码</li>\n<li>微信登录</li>\n<li>说说</li>\n<li>随机头像</li>\n<li>禁用附件页面</li>\n<li>各种用户邮箱发送问题</li>\n</ul>",
+            "author": {
+                "name": "极客云落"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-01-18T21:40:03+08:00",
+            "date_modified": "2020-01-18T21:40:03+08:00"
+        },
+        {
             "id": "https://gitcafe.ink/tan-tan-zi-ji-de-san-qi-si-qie.html",
             "url": "https://gitcafe.ink/tan-tan-zi-ji-de-san-qi-si-qie.html",
             "title": "谈谈自己的三妻四妾",
